@@ -1,1 +1,5 @@
-
+spring:
+  jpa:
+    properties:
+      hibernate.generate_statistics: true # Enable statistics generation
+      hibernate.batch_size: 20 # Batch size
